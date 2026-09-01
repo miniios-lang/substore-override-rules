@@ -22,16 +22,16 @@ SubStore 订阅转换覆写脚本（基于 [powerfullz/override-rules](https://g
 | `keepalive` | 启用 tcp-keep-alive | `false` |
 | `fakeip` | DNS 使用 FakeIP 模式 | `true` |
 
-示例：`https://raw.githubusercontent.com/<user>/substore-override-rules/main/convert.js?full=true&fakeip=false`
+示例：`https://raw.githubusercontent.com/miniios-lang/substore-override-rules/main/convert.js?full=true&fakeip=false`
 
 ## 使用方法（SubStore）
 
 1. 打开 SubStore，进入「覆写」页面
 2. 新增覆写脚本，填入脚本地址：
    ```
-   https://raw.githubusercontent.com/<user>/substore-override-rules/main/convert.js
+   https://raw.githubusercontent.com/miniios-lang/substore-override-rules/main/convert.js
    ```
-   （国内网络可用 jsdelivr 加速：`https://cdn.jsdelivr.net/gh/<user>/substore-override-rules@main/convert.js`）
+   （国内网络可用 jsdelivr 加速：`https://cdn.jsdelivr.net/gh/miniios-lang/substore-override-rules@main/convert.js`）
 3. 将覆写绑定到目标订阅，即可生成带以上代理组与规则的配置
 
 ## 地区组匹配规则
