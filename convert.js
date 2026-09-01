@@ -113,7 +113,7 @@ https://github.com/powerfullz/override-rules
       {
         name: "Apple",
         type: "select",
-        proxies: ["DIRECT", "Final"],
+        proxies: ["DIRECT", ...regionPolicies],
         icon: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/icon/qure/color/Apple_2.png"
       },
       {
@@ -606,6 +606,7 @@ https://github.com/powerfullz/override-rules
     return [
       `IP-CIDR,65.49.212.137/32,DIRECT`,
       ...XPTV_RULES,
+      `DOMAIN-SUFFIX,apps.apple.com,Apple`,
       `RULE-SET,Direct,DIRECT`,
       `RULE-SET,Reject,REJECT`,
       `RULE-SET,AI,AI`,
